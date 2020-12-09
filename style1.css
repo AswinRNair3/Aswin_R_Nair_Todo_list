@@ -1,0 +1,128 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(.//Media/light-bulbs-5488573_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    /* background-color: antiquewhite;    */
+    
+}
+
+.box
+{   width: 400px;
+    padding: 40px;
+    margin-top: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(23, 25, 26, 0.746);
+    text-align: center;
+}
+
+
+.box input[type="text"],.box input[type="password"],.box input[type="email"]
+{   border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #f7c00b;
+    padding: 14px 10px;
+    width:200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus,.box input[type="email"]:focus
+{   width: 280px;
+    border-color: #2ecc71;
+
+}
+
+.box h1
+{   color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+
+.box input[type="submit"]
+{    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 10px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+
+
+.box input[type="submit"]:hover
+{
+    background-color: #2ecc71;
+}
+
+.logo{ margin: 0em;
+       height: 2em;
+       width: 2em;
+
+     }
+
+
+.dont{color:grey;
+    
+
+    }
+
+
+ 
+
+
+ footer h5{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color:#424242;
+    text-align: center;
+    
+   }
+   footer{ background-color:#202020;
+      margin-top: 15em;
+      margin-bottom:0em ;
+      height: 2em;}
+
+.table{background-color: rgba(23, 25, 26, 0.746);
+      color: rgb(255, 255, 255);
+      margin-top: 15px;
+
+}
+.table th{color: antiquewhite;}
+.table tr{color: rgb(146, 146, 135);}
+
+
+#lname{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: large;
+      color: lavenderblush;
+
+
+}
+
+#lname1{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    color: lavenderblush;
+    margin-left:-0.5em;
+
+
+}
